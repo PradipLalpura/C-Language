@@ -5,7 +5,9 @@ void printhw(int count);
 int main(){
     //int count = 2;
     //printhw(count);
-    printhw(2);
+    int n;
+    scanf("%d", &n);
+    printhw(n);
     return 0;
 }
 
